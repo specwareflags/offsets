@@ -1,4 +1,17 @@
 #pragma once
+/* =============================================================
+/*                       Roblox FFlag Dumper                    
+/* -------------------------------------------------------------
+/*  Dumped By       : kev                  
+/*  Roblox Version  : version-df7528517c6849f7
+/*  Dumper Version  : 2.1.1
+/*  Dumped At       : 21:27 18/02/2026 (GMT)
+/*  Total Offsets   : 11970
+/* -------------------------------------------------------------
+/*  Join the discord!                                           
+/*  https://discord.gg/specware                                
+/* =============================================================
+*/
 
 namespace FFlagOffsets
 {
