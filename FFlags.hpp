@@ -3039,6 +3039,7 @@ namespace FFlags
     uintptr_t DualWriteEphemeralCounterToV2WhiteList = 0x6B89770;
     uintptr_t TaskSchedulerRescheduleAllowed = 0x7B45A78;
     uintptr_t TaskSchedulerTargetFps = 0x787D9EC;
+    uintptr_t TaskSchedulerPointer = 0x801d408;
     uintptr_t RealTimeAnimationUseAudioAPI = 0x78D85F8;
     uintptr_t DebugLogHSRGeneratioinInStudio = 0x78E2418;
     uintptr_t RBXASSERT_CLI155121_RolloutScale = 0x6B254A8;
@@ -12230,3 +12231,4 @@ namespace FFlags
     uintptr_t EnableSystrayDev5 = 0x78A0B30;
     uintptr_t ConditionallyDisableMemoryTracking2 = 0x7B49100;
 }
+
