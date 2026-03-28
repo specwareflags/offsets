@@ -1,4 +1,18 @@
 #pragma once
+/* =============================================================
+/*                       RbxDumperV2                            
+/*               https://imtheo.lol/Offsets                     
+/* -------------------------------------------------------------
+/*  Dumped By       : theo (https://imtheo.lol)                 
+/*  Roblox Version  : version-6776addb8fbc4d17
+/*  Dumper Version  : 2.1.5
+/*  Dumped At       : 22:38 27/03/2026 (GMT)
+/*  Total Offsets   : 368
+/* -------------------------------------------------------------
+/*  Join the discord!                                           
+/*  https://discord.gg/rbxoffsets                               
+/* =============================================================
+*/
 
 #include <cstdint>
 #include <string>
@@ -302,7 +316,7 @@ namespace Offsets {
          inline constexpr uintptr_t ByteCode = 0x150;
          inline constexpr uintptr_t GUID = 0xe8;
          inline constexpr uintptr_t Hash = 0x160;
-         inline constexpr uintptr_t IsCoreScript = 0x0;
+         inline constexpr uintptr_t IsCoreScript = 0x180;
     }
 
     namespace MouseService {
@@ -394,8 +408,8 @@ namespace Offsets {
 
     namespace RenderView {
          inline constexpr uintptr_t DeviceD3D11 = 0x8;
-         inline constexpr uintptr_t LightingValid = 0x0;
-         inline constexpr uintptr_t SkyValid = 0x0;
+         inline constexpr uintptr_t LightingValid = 0x148;
+         inline constexpr uintptr_t SkyValid = 0x2cd;
          inline constexpr uintptr_t VisualEngine = 0x10;
     }
 
@@ -411,7 +425,7 @@ namespace Offsets {
     }
 
     namespace ScriptContext {
-         inline constexpr uintptr_t RequireBypass = 0x0;
+         inline constexpr uintptr_t RequireBypass = 0x8fd;
     }
 
     namespace Seat {
@@ -444,7 +458,7 @@ namespace Offsets {
     }
 
     namespace SpawnLocation {
-         inline constexpr uintptr_t AllowTeamChangeOnTouch = 0x45;
+         inline constexpr uintptr_t AllowTeamChangeOnTouch = 0x1f8;
          inline constexpr uintptr_t Enabled = 0x1f9;
          inline constexpr uintptr_t ForcefieldDuration = 0x1f0;
          inline constexpr uintptr_t Neutral = 0x1fa;
@@ -507,7 +521,7 @@ namespace Offsets {
 
     namespace Tool {
          inline constexpr uintptr_t CanBeDropped = 0x4c0;
-         inline constexpr uintptr_t Enabled = 0x3c5;
+         inline constexpr uintptr_t Enabled = 0x4c1;
          inline constexpr uintptr_t Grip = 0x4b4;
          inline constexpr uintptr_t ManualActivationOnly = 0x4c2;
          inline constexpr uintptr_t RequiresHandle = 0x4c3;
