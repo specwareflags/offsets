@@ -4,9 +4,9 @@
 /*               https://imtheo.lol/Offsets                     
 /* -------------------------------------------------------------
 /*  Dumped By       : theo (https://imtheo.lol)                 
-/*  Roblox Version  : version-689e359b09ad43b0
+/*  Roblox Version  : version-26c90be22e0d4758
 /*  Dumper Version  : 2.1.6
-/*  Dumped At       : 17:25 09/04/2026 (GMT)
+/*  Dumped At       : 21:56 09/04/2026 (GMT)
 /*  Total Offsets   : 391
 /* -------------------------------------------------------------
 /*  Join the discord!                                           
@@ -17,7 +17,7 @@
 #include <cstdint>
 #include <string>
 namespace Offsets {
-    inline std::string ClientVersion = "version-689e359b09ad43b0";
+    inline std::string ClientVersion = "version-26c90be22e0d4758";
 
     namespace AirProperties {
          inline constexpr uintptr_t AirDensity = 0x18;
@@ -52,7 +52,7 @@ namespace Offsets {
 
     namespace BasePart {
          inline constexpr uintptr_t CastShadow = 0xf5;
-         inline constexpr uintptr_t Color3 = 0x194;
+         inline constexpr uintptr_t Color3 = 0x49;
          inline constexpr uintptr_t Locked = 0xf6;
          inline constexpr uintptr_t Massless = 0xf7;
          inline constexpr uintptr_t Primitive = 0x148;
@@ -173,7 +173,7 @@ namespace Offsets {
     }
 
     namespace FakeDataModel {
-         inline constexpr uintptr_t Pointer = 0x834a988;
+         inline constexpr uintptr_t Pointer = 0x7a1d388;
          inline constexpr uintptr_t RealDataModel = 0x1c0;
     }
 
@@ -215,9 +215,9 @@ namespace Offsets {
          inline constexpr uintptr_t HealthDisplayType = 0x19c;
          inline constexpr uintptr_t HipHeight = 0x1a0;
          inline constexpr uintptr_t HumanoidRootPart = 0x478;
-         inline constexpr uintptr_t HumanoidState = 0x890;
+         inline constexpr uintptr_t HumanoidState = 0x898;
          inline constexpr uintptr_t HumanoidStateID = 0x20;
-         inline constexpr uintptr_t IsWalking = 0x90f;
+         inline constexpr uintptr_t IsWalking = 0x917;
          inline constexpr uintptr_t Jump = 0x1dd;
          inline constexpr uintptr_t JumpHeight = 0x1ac;
          inline constexpr uintptr_t JumpPower = 0x1b0;
@@ -353,7 +353,7 @@ namespace Offsets {
          inline constexpr uintptr_t InputObject = 0x100;
          inline constexpr uintptr_t InputObject2 = 0x110;
          inline constexpr uintptr_t MousePosition = 0xec;
-         inline constexpr uintptr_t SensitivityPointer = 0x83e9530;
+         inline constexpr uintptr_t SensitivityPointer = 0x7abc440;
     }
 
     namespace ParticleEmitter {
@@ -384,7 +384,7 @@ namespace Offsets {
          inline constexpr uintptr_t MaxZoomDistance = 0x320;
          inline constexpr uintptr_t MinZoomDistance = 0x324;
          inline constexpr uintptr_t ModelInstance = 0x398;
-         inline constexpr uintptr_t Mouse = 0xf90;
+         inline constexpr uintptr_t Mouse = 0xfc8;
          inline constexpr uintptr_t NameDisplayDistance = 0x358;
          inline constexpr uintptr_t Team = 0x2a0;
          inline constexpr uintptr_t TeamColor = 0x364;
@@ -392,7 +392,7 @@ namespace Offsets {
     }
 
     namespace PlayerConfigurer {
-         inline constexpr uintptr_t Pointer = 0x83206a0;
+         inline constexpr uintptr_t Pointer = 0x79f30d0;
     }
 
     namespace PlayerMouse {
@@ -444,8 +444,8 @@ namespace Offsets {
     }
 
     namespace RunService {
-         inline constexpr uintptr_t HeartbeatFPS = 0xf4;
-         inline constexpr uintptr_t HeartbeatTask = 0x3b8;
+         inline constexpr uintptr_t HeartbeatFPS = 0xfc;
+         inline constexpr uintptr_t HeartbeatTask = 0x160;
     }
 
     namespace Script {
@@ -480,7 +480,7 @@ namespace Offsets {
     namespace Sound {
          inline constexpr uintptr_t Looped = 0x152;
          inline constexpr uintptr_t PlaybackSpeed = 0x130;
-         inline constexpr uintptr_t Playing = 0x16d;
+         inline constexpr uintptr_t Playing = 0x0;
          inline constexpr uintptr_t RollOffMaxDistance = 0x134;
          inline constexpr uintptr_t RollOffMinDistance = 0x138;
          inline constexpr uintptr_t SoundGroup = 0x100;
@@ -489,7 +489,7 @@ namespace Offsets {
     }
 
     namespace SpawnLocation {
-         inline constexpr uintptr_t AllowTeamChangeOnTouch = 0x45;
+         inline constexpr uintptr_t AllowTeamChangeOnTouch = 0x1f8;
          inline constexpr uintptr_t Enabled = 0x1f9;
          inline constexpr uintptr_t ForcefieldDuration = 0x1f0;
          inline constexpr uintptr_t Neutral = 0x1fa;
@@ -528,7 +528,7 @@ namespace Offsets {
          inline constexpr uintptr_t JobName = 0x18;
          inline constexpr uintptr_t JobStart = 0xc8;
          inline constexpr uintptr_t MaxFPS = 0xb0;
-         inline constexpr uintptr_t Pointer = 0x8428188;
+         inline constexpr uintptr_t Pointer = 0x7af5090;
     }
 
     namespace Team {
@@ -579,7 +579,7 @@ namespace Offsets {
     namespace VisualEngine {
          inline constexpr uintptr_t Dimensions = 0xa60;
          inline constexpr uintptr_t FakeDataModel = 0xa40;
-         inline constexpr uintptr_t Pointer = 0x7ef81d8;
+         inline constexpr uintptr_t Pointer = 0x75cc058;
          inline constexpr uintptr_t RenderView = 0xb40;
          inline constexpr uintptr_t ViewMatrix = 0x130;
     }
